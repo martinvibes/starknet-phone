@@ -94,7 +94,6 @@ fun CreatePinScreen(onContinue: () -> Unit) {
 
 
 
-
             Spacer(modifier = Modifier.height(31.dp))
             PasscodeCircles(passcode, hiddenPasscode, maxDigits)
 
@@ -230,7 +229,7 @@ fun KeypadButton(text: String, onClick: () -> Unit) {
         colors = ButtonDefaults.buttonColors(backgroundColor = Color("#1B1B76".toColorInt()), contentColor = Color.White),
         shape = CircleShape,
                 modifier = Modifier
-            .size(50.dp)
+            .size(51.dp)
 
     ) {
         Text(
